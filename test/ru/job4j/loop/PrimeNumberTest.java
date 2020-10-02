@@ -8,8 +8,8 @@ import static org.junit.Assert.*;
 public class PrimeNumberTest {
     @Test
     public void when5() {
-        int count = PrimeNumber.calc(5);
-        assertThat(count, is(3));
+        int count = PrimeNumber.calc(1);
+        assertThat(count, is(0));
     }
 
     @Test
