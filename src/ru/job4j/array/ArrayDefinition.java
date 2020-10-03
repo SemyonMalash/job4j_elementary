@@ -6,6 +6,17 @@ public class ArrayDefinition {
         String[] surnames = new String[100500];
         float[] prices = new float[40];
 
+        String[] names = new String[4];
+        names[0] = "Петр";
+        names[1] = "Иван";
+        names[2] = "Михаил";
+        names[3] = "Алексей";
+
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
+
         System.out.println("Размер массива равен: " + ages.length);
         System.out.println("Размер массива равен: " + surnames.length);
         System.out.println("Размер массива равен: " + prices.length);
